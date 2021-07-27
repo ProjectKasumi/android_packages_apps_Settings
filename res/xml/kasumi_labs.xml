@@ -82,6 +82,13 @@
             android:summary="@string/ticker_screen_summary"
             android:fragment="com.android.settings.Ticker"/>
 
+    <com.android.settings.widget.preferences.SystemSettingSwitchPreference
+        android:key="statusbar_icons_style"
+        android:icon="@drawable/ic_status_icon"
+        android:title="@string/statusbar_icons_style"
+        android:summary="@string/statusbar_icons_style_summary"
+        android:defaultValue="false" />
+
     </PreferenceCategory>
     
     <PreferenceCategory
