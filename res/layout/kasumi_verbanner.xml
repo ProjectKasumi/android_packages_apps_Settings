@@ -20,7 +20,8 @@
 <ImageView
 	android:layout_width="match_parent"
  	android:layout_height="match_parent"
-	android:src="@drawable/kasumi"
+	android:src="@drawable/kasumi_verbanner"
+	android:tint="?android:attr/colorAccent"
 	android:adjustViewBounds="true"
 	android:scaleType="centerInside" />
 </LinearLayout>
